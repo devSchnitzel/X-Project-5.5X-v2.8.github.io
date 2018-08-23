@@ -6,7 +6,7 @@ body {
   height: 100%;
   overflow: hidden;
   color: white;
-  background-color: black;
+  background-color:darkblue;
   font-family: sans-serif;
 }
 .content {
@@ -17,7 +17,7 @@ body {
  width: 800px;
  height: 90px;
  padding: 0px 0px;
- background: black;
+ background: transparent;
  border: 0 ;
 z-index: 20;
 overflow:hidden;
@@ -109,7 +109,7 @@ overflow:hidden;
   text-align: center;
   width: 100%;
   font-size: 65px;
-  color: white;
+  color: red;
   text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 #xmb label {
@@ -118,7 +118,7 @@ overflow:hidden;
   text-shadow: 0px 0px 5px #000000;
   font-size: 30px;
   text-transform: capitalize;
-  color: red;
+  color: yellow;
   cursor: pointer;
 }
 #xmb .cell.submenu,
