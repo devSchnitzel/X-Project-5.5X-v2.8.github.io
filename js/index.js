@@ -12,7 +12,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: 'gamepad',
-      items: [{ title: "webkit-5.50", subtitle: "beta(84Ciss)", active: false, icon: "lock", expage: "5.5x/5.50.html" }, { title: "webkit-5.53", subtitle: "beta(84Ciss)", active: false, icon: "lock", expage: "5.5x/5.53.html" }, { title: "webkit-5.55", subtitle: "beta(84Ciss)", active: false, icon: "lock", expage: "5.5x/5.55.html" }, { title: "webkit-6.00", subtitle: "beta(84Ciss)", active: false, icon: "lock", expage: "5.5x/6.00.html" }]
+      items: [{ title: "webkit-5.55", subtitle: "beta(84Ciss)", active: false, icon: "lock", expage: "5.5x/5.55.html" }]
     },
 	"MEDIA": {
       index: 1,
