@@ -12,7 +12,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: 'gamepad',
-      items: [{ title: "webkit-5.55", subtitle: "beta(84Ciss)", active: false, icon: "lock", expage: "5.5x/5.55.html" }]
+      items: [{ title: "webkit", desc: "5.55", version: "beta by 84Ciss", active: false, icon: "lock", expage: "5.5x/5.55.html" }]
     },
 	"MEDIA": {
       index: 1,
@@ -20,23 +20,31 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "subscriptions",
-      items: [{title: "MP4PLAYER", subtitle: "1.0(DEFAULTDNB)", active: false, icon: "airplay", expage: "payloads/playerloader.html" }]
+      items: [{title: "MP4PLAYER", desc:"Media player for MP4 movies over network", version: "1.0 by DEFAULTDNB", active: false, icon: "airplay", expage: "payloads/playerloader.html" }, {title: "MP3PLAYER", desc:"Audio player for music files over network", version: "COMING SOON by DEFAULTDNB", active: false, icon: "audiotrack" }]
 	},
-	"CACHE": {
+	"★CACHE": {
       index: 2,
       title: "CACHE",
       selectedIndex: 0,
       active: false,
       icon: "copyright",
-      items: [{ title: "HOST_CACHE", subtitle: "1.0(Al-Azif)", active: false, icon: "weekend", expage: "payloads/xmbcache.html" }, { title: "USBCACHE_INSTALL", subtitle: "10.0(Stooged)", active: false, icon: "beenhere", expage: "payloads/usbcacheinstall.html" }, { title: "CACHE_INSTALL", subtitle: "10.0(Stooged)", active: false, icon: "book", expage: "payloads/cacheinstall.html" }, { title: "APPLICATION_CACHE", subtitle: "2.0(Hotdogwithmustard)", active: false, icon: "loyalty", expage: "payloads/applicationcache.html" }, { title: "HISTORY_BLOCKER", subtitle: "2.0(Stooged)", active: false, icon: "bookmarks", expage: "payloads/history.html" }]
+      items: [{ title: "HOST CACHE", desc:"Cache X-Project to your web browser for offline use", version: "1.0 by Al-Azif", active: false, icon: "weekend", expage: "payloads/xmbcache.html" }, { title: "USB CACHE INSTALL", desc:"Installs an ApplicationCache.db from USB for offline use", version: "10.0 by Stooged", active: false, icon: "beenhere", expage: "payloads/usbcacheinstall.html" }, { title: "CACHE INSTALL", desc:"Installs an ApplicationCache.db for offline use", version: "10.0 by Stooged", active: false, icon: "book", expage: "payloads/cacheinstall.html" }, { title: "APPLICATION CACHE", desc:"Installs an ApplicationCache.db that is a modified version of Al-Azif's exploit host", version: "2.0 by Hotdogwithmustard", active: false, icon: "loyalty", expage: "payloads/applicationcache.html" }, { title: "HISTORY BLOCKER", desc:"Toggle auto loading the last page used in webbrowser", version: "2.0 by Stooged", active: false, icon: "bookmarks", expage: "payloads/history.html" }]
+	},
+	"★ARCADE": {
+      index: 3,
+      title: "ARCADE",
+      selectedIndex: 0,
+      active: false,
+      icon: "web",
+      items: [{title: "INFINITE MARIO", desc:"Randomized Mario game made in JS", version: "1.0 by Markus Persson mod by DEFAULTDNB", active: false, icon: "IM", expage: "payloads/games/infmario/infmarioloader.html" }, {title: "FLAPPYBIRD", desc:"Classic Flappy Bird made in JS", version: "1.0 by Fatiherikli mod by DEFAULTDNB", active: false, icon: "whatshot", expage: "payloads/games/flappybird/flappyloader.html" }, {title: "SNAKE", desc:"Classic Snake game made in JS", version: "1.0 by Patorjk mod by DEFAULTDNB", active: false, icon: "pages", expage: "payloads/games/snake/snakeloader.html" }]
 	},
 	"★DEBUG": {
-      index: 3,
+      index: 4,
       title: "★DEBUG",
       selectedIndex: 0,
       active: false,
       icon: "cake",
-      items: [{ title: "★PAYLOAD", subtitle: "(QUICK_TESTING)", active: false, icon: "healing", expage: "payloads/testloader.html" }]
+      items: [{ title: "★PAYLOAD", desc: "Quickly test payloads", version:"1.0 by DEFAULTDNB", active: false, icon: "healing", expage: "payloads/testloader.html" }]
 	},
   }
   //add zero position to each column and item
